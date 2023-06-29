@@ -1,0 +1,44 @@
+---
+import Layout from "../layouts/Layout.astro"
+import logo from "../images/favicon.png";
+---
+
+<Layout>
+	<div class="flex justify-center h-auto flex-col md:flex-row gap-5">
+		<div class=" flex flex-col md:justify-center">
+			<div class=" flex justify-center mb-5">
+				<img src={logo} alt="" class="w-52">
+			</div>
+			<div>
+				<p class="text-center font-[f] text-white text-3xl mb-5">Quienes somos</p>
+			</div>
+			<div class="pl-10 pr-10 pb-10 box-border">
+				<p class="text-center font-[f] text-white text-1xl">Somos un equipo de desarrolladores web enfocados<br /> en publicitar su marca, negocio o emprendimiento<br /> por medio del servicio mas conocido de internet</p>
+			</div>
+		</div>
+		<div class="text-white text-center font-[f] flex flex-col mt-10 mr-5 align-middle box-border w-[30%]">
+			<div class="text-2xl mb-5">
+				<p>¿De qué me serviría un sítio web?</p>
+			</div>
+			<div class="text-center">
+				<ul class="list-disc">
+					<li>
+						<p class="text-start">Portafolio Web</p>
+						<p class="mb-4 text-justify">¿Eres diseñador, ilustrador o quieres dar a conocer tu arte pero no sabes cómo? un portafolio web podría ser una buena opción.</p>
+					</li>
+					<li>
+						<p class="text-start">Curriculums Online</p>
+						<p class="mb-4 text-justify">Olvidate de los Curriculums en papel y conviertelo en uno virtual, actualiza ya para llegar a mas promociones.</p>
+					</li>
+					<li>
+						<p class="text-start">Propociona tu negocio</p>
+						<p class="mb-4 text-justify">¿Cuentas con un negocio o algún emprendimiento y le quieres sacar mejor partido?, un sitio web es tu respuesta.</p>
+					</li>
+					<li>
+						<p class="text-start">¡¡Y muchas cosas más!!</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</Layout>

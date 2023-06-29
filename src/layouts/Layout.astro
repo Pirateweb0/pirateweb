@@ -1,0 +1,24 @@
+---
+import Header from "../components/header.astro";
+import Container from "../components/container.astro";
+import Footer from "../components/footer.astro";
+import Home from "../components/home.astro";
+---
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Pirate Web | Home</title>
+</head>
+<body class="bg-[#242424] overflow-x-hidden">
+    <main class="bg-[#242424] w-[100%] md:h-[auto] flex flex-col pt-10 justify-center align-middle">
+        <Header></Header>
+        <Home />
+        <Container></Container>
+        <Footer ></Footer>
+        
+    </main>
+</body>
+</html>
