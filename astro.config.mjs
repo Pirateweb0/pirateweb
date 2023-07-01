@@ -5,6 +5,6 @@ import tailwind from "@astrojs/tailwind";
 // https://astro.build/config
 export default defineConfig({
   integrations: [tailwind()],
-  site: "https://pirate-web.github.io",
-  base: "/pirate-web"
+  site: "https://pirate-web0.github.io",
+  base: "/pirateweb"
 });
