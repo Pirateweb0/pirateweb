@@ -6,5 +6,5 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   integrations: [tailwind()],
   site: "https://pirate-web0.github.io",
-  base: "/pirateweb"
+  base: "/"
 });
